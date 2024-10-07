@@ -1,0 +1,64 @@
+/**{
+	font-family: 'Comic Sans MS', arial;
+}*/
+.container{
+	overflow: auto;
+	margin: 10px 10px;
+}
+#accountaddress{
+	text-align: center;
+	color: #f5f5f5; /* Light text for dark theme */
+}
+.mainbox{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.formclass1, .formclass2 {
+	width: 100%;
+	border-radius: 5px;
+	background-color: #333; /* Dark background */
+	color: #f5f5f5; /* Light text */
+	padding: 20px;
+}
+.list-content{
+	width: 100%;
+	color: #f5f5f5; /* Light text */
+}
+
+h3{
+	text-align: center;
+	color: #f5f5f5; /* Light text */
+}
+
+input[type=text], input[type=number], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #555; /* Darker border */
+	border-radius: 4px;
+	box-sizing: border-box;
+	background-color: #1a1a1a; /* Dark input background */
+	color: #f5f5f5; /* Light text */
+}
+
+input[type=text]:focus, input[type=number]:focus, select:focus {
+	border: 2px solid #1e90ff; /* Blue border on focus */
+}
+
+.btn-add {
+	width: 100%;
+	background-color: #1e90ff; /* Bright blue background */
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.btn-add:hover {
+	background-color: #0000D9; /* Darker blue on hover */
+}
